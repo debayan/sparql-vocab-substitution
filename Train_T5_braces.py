@@ -56,7 +56,7 @@ def read_data(filename):
                         replace('<http://www.w3.org/2001/XMLSchema#date>','<extra_id_3>'). \
                             replace('<http://www.w3.org/2001/XMLSchema#float>','<extra_id_4>'). \
                                 replace('<http://www.w3.org/2001/XMLSchema#gYearMonth>','<extra_id_5>'). \
-                                replace('<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>','<extra_id_0>')
+                                replace('<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>','<extra_id_6>')
                                    
         lis.append(InputExample(guid = str(i),text_a = input, tgt_text = target))
 
